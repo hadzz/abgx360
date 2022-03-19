@@ -11507,7 +11507,7 @@ void checkini() {
                 getinivalue(buffer, 13, "webtopology",          WEB_TOPOLOGY,         "http://abgx360.hadzz.com/topology.php");
             }
             else if (memcmp(buffer, "web_autoupload:", 15) == 0) {
-                getinivalue(buffer, 15, "autouploadwebaddress", WEB_AUTOUPLOAD,       "http://abgx360.net/Apps/Control/AutoUpload.php");
+                getinivalue(buffer, 15, "autouploadwebaddress", WEB_AUTOUPLOAD,       "http://abgx360.hadzz.com/Control/AutoUpload.php");
             }
             else if (memcmp(buffer, "web_unverifiedinidir:", 21) == 0) {
                 getinivalue(buffer, 21, "webunverifiedinidir",  WEB_UNVERIFIEDINIDIR, "http://abgx360.hadzz.com/unverified/");
